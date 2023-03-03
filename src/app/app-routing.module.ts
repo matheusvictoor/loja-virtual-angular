@@ -1,8 +1,12 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { Routes, RouterModule} from '@angular/router';
+import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'produtos', loadChildren: () => import('./produtos/produtos.module').then(m => m.ProdutosModule) },
+  { path: "", redirectTo: "produtos", pathMatch: "full" },
+  { path: "**", component: NaoEncontradaComponent }
+];
 
 @NgModule({
   declarations: [],
