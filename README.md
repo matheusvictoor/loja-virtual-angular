@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LojaVirtualAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# loja-virtual-angular
+Este projeto é uma loja online de informática criada com Angular. Ele permite que os usuários comprem peças de computador e acessórios com facilidade. O público-alvo é composto por entusiastas de informática e profissionais que buscam equipamentos de alta qualidade a preços acessíveis.
+>>>>>>> 6a8db48dddc434cd6052792789438abd9297ed90
