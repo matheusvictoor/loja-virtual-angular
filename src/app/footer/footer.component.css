@@ -1,3 +1,7 @@
+root {
+    --blue: #0000ff;
+  }
+
 .footer {
     background-color: var(--light-gray);        
     color: var(--gray);

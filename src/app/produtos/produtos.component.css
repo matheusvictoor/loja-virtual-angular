@@ -1,3 +1,9 @@
+:root {
+    --gray: #777777;
+    --blue: #0000ff;
+    --orange:#ffbb00;
+  }
+
 .product-list {
     padding: 40px 0;
     width: fit-content;    
