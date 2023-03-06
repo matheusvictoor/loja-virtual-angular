@@ -8,20 +8,16 @@
 }
 
 .main-header__title {    
-    font-size: 80px;
+    font-size: 92px;
     letter-spacing: -1.5px;    
 }
 
 .main-header__title--blue {
     color: var(--blue);
-    color: blue;
-    font-size:60px;
 }
 
 .main-header__title--orange {
     color: var(--orange);
-    color: orange;
-    font-size:60px;
 }
 
 .main-header__menu ul {
