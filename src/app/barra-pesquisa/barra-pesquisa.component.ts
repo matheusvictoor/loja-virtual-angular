@@ -19,7 +19,7 @@ export class BarraPesquisaComponent {
       return;
     }
 
-    this.router.navigate([ "produtos" ]);
+    this.router.navigate(["produtos"]);
   }
 
 }
