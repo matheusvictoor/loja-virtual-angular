@@ -1,32 +1,68 @@
-<<<<<<< HEAD
-# LojaVirtualAngular
+# Projeto de Loja Virtual com Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+Este projeto consiste em uma loja virtual desenvolvida com Angular, onde os usuários podem comprar produtos, adicionar itens ao carrinho, excluir produtos do carrinho, aumentar e diminuir a quantidade de um mesmo produto que já se encontra no carrinho, enviar mensagens para a loja na página de contato, buscar por produtos na barra de pesquisa, entre outras funcionalidades.
 
-## Development server
+## Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular
+- TypeScript
+- HTML
+- CSS
 
-## Code scaffolding
+## Executando o Projeto em Ambiente de Desenvolvimento Local
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para executar o projeto em um ambiente de desenvolvimento local, você precisa ter o Angular CLI instalado. Você pode instalar o Angular CLI usando o seguinte comando:
 
-## Build
+```
+bashCopy code
+npm install -g @angular/cli
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Depois de instalar o Angular CLI, siga as etapas abaixo:
 
-## Running unit tests
+- Clone o repositório para a sua máquina local usando o seguinte comando:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+bashCopy code
+git clone https://github.com/seu-usuario/nome-do-projeto.git
+```
 
-## Running end-to-end tests
+- Navegue até o diretório do projeto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+javascriptCopy code
+cd nome-do-projeto
+```
 
-## Further help
+- Instale as dependências do projeto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# loja-virtual-angular
-Este projeto é uma loja online de informática criada com Angular. Ele permite que os usuários comprem peças de computador e acessórios com facilidade. O público-alvo é composto por entusiastas de informática e profissionais que buscam equipamentos de alta qualidade a preços acessíveis.
->>>>>>> 6a8db48dddc434cd6052792789438abd9297ed90
+```
+bashCopy code
+npm install
+```
+
+- Inicie o servidor de desenvolvimento:
+
+```
+bashCopy code
+ng serve
+```
+
+- Abra o navegador e acesse http://localhost:4200/ para visualizar o projeto.
+
+## Estrutura do Projeto
+
+O projeto é organizado da seguinte forma:
+
+- src/app/components: Componentes da aplicação (carrinho de compras, lista de produtos, formulário de contato, etc.)
+- src/app/models: Modelos usados para representar dados da aplicação (usuário, produto, mensagem, etc.)
+- src/app/services: Serviços usados para buscar dados, armazenar dados do carrinho, autenticar usuários, enviar mensagens, etc.
+- src/app/shared: Componentes, diretivas e pipes compartilhados por toda a aplicação.
+
+## Como Contribuir para o Projeto
+
+Se você deseja contribuir para o projeto, pode fazer o fork deste repositório, fazer as alterações necessárias e enviar um pull request. As contribuições são sempre bem-vindas.
+
+## Licença
+
+Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
