@@ -8,6 +8,7 @@ Este projeto consiste em uma loja virtual desenvolvida com Angular, onde os usu√
 - TypeScript
 - HTML
 - CSS
+- Visual Studio Code
 
 ## Executando o Projeto em Ambiente de Desenvolvimento Local
 
