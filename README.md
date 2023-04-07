@@ -49,7 +49,7 @@ bashCopy code
 ng serve
 ```
 
-- Abra o navegador e acesse http://localhost:4200/ para visualizar o projeto.
+- Abra o navegador e acesse https://matheusvictoor.github.io/loja-virtual-angular/produtos para visualizar o projeto.
 
 ## Estrutura do Projeto
 
